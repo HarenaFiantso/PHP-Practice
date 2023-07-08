@@ -21,8 +21,8 @@
     }
 
     echo '<form method="post" action="index.php" enctype="multipart/form-data">
-            <h1>Formulaire</h1>
+            <h1>This is a form</h1>
             <input type="file" name="image"/> <br />
-            <button type="submit">Envoyer</button>
+            <button type="submit">Send</button>
         </form>';
 ?>
