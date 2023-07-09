@@ -7,9 +7,9 @@
         // Vérification de la taille de l'image
         if ($_FILES['image']['size'] <= 3000000) {
 
-            // Vérification de l'extension
+            // Vérification de l'extension de l'image
             $informationsImage = pathinfo($_FILES['image']['name']);
-            $extensionImage = $informationsImage['extenstion'];
+            $extensionImage = $informationsImage['extension'];
             $extensionsArray = array('jpg', 'png', 'jpeg', 'gif');
 
             if (in_Array($extensionImage, $extensionsArray)) {
